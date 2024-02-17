@@ -22,7 +22,7 @@ def menu():
     for item in range(0, len(vlist)):
         print("%d: %s" %(item+1, vlist[item]))
     print ("0: Use automatic output instead")
-    v = raw_input(">")
+    v = input(">")
     v=int(v)-1
     if v == -1:
         o = ao2.auto.Auto()

@@ -1,5 +1,7 @@
+accessible-output2
+configobj
 Markdown
+py2exe
 pyserial
 pywin32
-py2exe-py2
 winpaths
